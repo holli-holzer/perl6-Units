@@ -113,7 +113,7 @@ does Singleton[]
   multi method find-unit( Str $lookup ) returns Units::Unit
   {
     my $instance = Units::Unit.instance;
-
+ 
     return
       $instance.UNITS.first({ .symbol ~~ $lookup}) ||
       $instance.UNITS.first({ .name ~~ $lookup});
