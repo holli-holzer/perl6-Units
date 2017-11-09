@@ -1,0 +1,43 @@
+{
+  "name" : "Units",
+  "source-url" : "https://github.com/holli-holzer/perl6-Units.git",
+  "support" : {
+    "source" : "https://github.com/holli-holzer/perl6-Units"
+  },
+  "perl" : "6.c",
+  "license" : "GPL-3.0",
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Units::Parsec" : "lib/Units/Parsec.pm6",
+    "Units::MetrePerSecondSquared" : "lib/Units/MetrePerSecondSquared.pm6",
+    "Units::Ampere" : "lib/Units/Ampere.pm6",
+    "Units::Second" : "lib/Units/Second.pm6",
+    "Units::Ohm" : "lib/Units/Ohm.pm6",
+    "Units::MetrePerSecond" : "lib/Units/MetrePerSecond.pm6",
+    "Units::Kelvin" : "lib/Units/Kelvin.pm6",
+    "Units::Foot" : "lib/Units/Foot.pm6",
+    "Units::Fahrenheit" : "lib/Units/Fahrenheit.pm6",
+    "Units::Mile" : "lib/Units/Mile.pm6",
+    "Units::MetreCubed" : "lib/Units/MetreCubed.pm6",
+    "Units::Volt" : "lib/Units/Volt.pm6",
+    "Units::Inch" : "lib/Units/Inch.pm6",
+    "Units::Gram" : "lib/Units/Gram.pm6",
+    "Units::Arithmatic" : "lib/Units/Arithmatic.pm6",
+    "Units::MetreSquared" : "lib/Units/MetreSquared.pm6",
+    "Units::Lightyear" : "lib/Units/Lightyear.pm6",
+    "Units::\u00c5ngstr\u00f6m" : "lib/Units/\u00c5ngstr\u00f6m.pm6",
+    "Units::Unit" : "lib/Units/Unit.pm6",
+    "Units::Metre" : "lib/Units/Metre.pm6",
+    "Units::Celsius" : "lib/Units/Celsius.pm6",
+    "Units" : "lib/Units.pm6"
+  },
+  "version" : "1.001001",
+  "meta-version" : "0",
+  "authors" : [
+    "Markus 'Holli' Holzer",
+    ""
+  ],
+  "description" : "Unit arithmatic and conversions"
+}
