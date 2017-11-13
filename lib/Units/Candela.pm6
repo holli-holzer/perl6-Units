@@ -4,6 +4,5 @@ class Units::Candela is Units::SIUnit
 {
   has Int %.si-signature  = %( :cd(1) );
   has Str $.singular-name = "candela";
-  has Str $.plural-name   = "candelas";
   has Str $.symbol        = "cd";
 }
