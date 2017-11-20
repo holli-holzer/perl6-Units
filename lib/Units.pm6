@@ -10,12 +10,21 @@ module Units
   {
     say "register-units";
 
+    my %def_units;
+
     for find-plugins() -> $plugin
     {
       say "registering ", $plugin.^name;
       try {
         Units::Unit.instance.UNITS.push( $plugin.new );
         CATCH { die "Cannot register unit <{ $plugin.^name }>\n$_" }
+      }
+
+      my $sym = $plugin.new.symbol;
+      if %def_units{$sym}:exists {
+        warn "Unit { %def_units{$sym} } already defines symbol '{ $sym }'.";
+      } else {
+        %def_units{$sym} = $plugin.^name;
       }
     }
 

@@ -2,9 +2,9 @@ use Units::Unit;
 
 class Units::Litre is Units::SIUnit
 {
-  has Num $.si-factor     = 0.001;
+  has Cool $.si-factor     = 0.001;
   has Int %.si-signature  = %( :m(3) );
   has Str $.singular-name = "litre";
   has Str $.plural-name   = "litres";
-  has Str $.symbol        = "L"; 
+  has Str $.symbol        = "L";
 }
