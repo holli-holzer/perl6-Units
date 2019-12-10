@@ -1,17 +1,21 @@
 NAME
 ====
 
-Units - blah blah blah
+Units 
 
 SYNOPSIS
 ========
 
-    use Units;
+    use Units <m>;
+    say 8A * 2Ω; 
+    
+    # Output: 8V
 
 DESCRIPTION
 ===========
 
-Units is ...
+Implements all SI and a couple of derived Units as Operators. Units can be converted and calulated with.
+Please see the tests.
 
 AUTHOR
 ======
