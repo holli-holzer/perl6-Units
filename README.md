@@ -6,7 +6,7 @@ Units
 SYNOPSIS
 ========
 
-    use Units <m>;
+    use Units <m A Ω K ft in>;
     say 8A * 2Ω;          # Output: 8V
     say 0K.celsius.value; # Output: -273.15
     say 1ft > 1in;        # Output: True  
