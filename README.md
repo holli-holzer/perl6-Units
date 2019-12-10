@@ -7,14 +7,15 @@ SYNOPSIS
 ========
 
     use Units <m>;
-    say 8A * 2Ω; 
-    
-    # Output: 8V
+    say 8A * 2Ω;          # Output: 8V
+    say 0K.celsius.value; # Output: -273.15
+    say 1ft > 1in;        # Output: True  
 
 DESCRIPTION
 ===========
 
-Implements all SI and a couple of derived Units as Operators. Units can be converted and calulated with.
+Implements all SI and a couple of derived and imperial Units as Operators. `Units` instances can be converted, compared and calculated with.
+
 Please see the tests.
 
 AUTHOR
