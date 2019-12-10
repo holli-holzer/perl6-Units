@@ -21,7 +21,7 @@ Please see the tests.
 AUTHOR
 ======
 
-    holli.holzer@gmail.com
+    Markus "holli" Holzer
 
 COPYRIGHT AND LICENSE
 =====================
